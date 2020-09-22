@@ -3,7 +3,7 @@ Hi! Glad you're looking at my project!
 
 Project Purpose: 
 
-To take our YouTube playlist and co it over to Spotify
+To take your YouTube playlist and copy it over to Spotify
 
 
 
