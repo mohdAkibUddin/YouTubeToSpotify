@@ -29,4 +29,4 @@ For the Redirect URIs you can use any URI. For example: https://www.wikipedia.or
 and paste that in
 Navigate to the creds folder. There is file named "spotify_creds.txt" open it and follow the 3 copy paste instructions
 
-There is a problem with the youtube_DL library right now so you're gonna have to go in and patch it after installing the requirmenents navigate into youtube_dl/extractor/youtube.py go to line 2338 and replace whatever is there with this r'"title":\s*{\s*"simpleText":\s*"%s"\s*},\s*"contents":\s*\[\s*{\s*(?:"runs":\s*\[\s*{\s*"text"|"simpleText"):\s*"([^"]+)"' % field,
+There is a problem with the youtube_DL library right now so you're gonna have to go in and patch it after installing the requirmenents navigate into venv/lib64/python3.8/site-packages/youtube_dl/extractor/youtube.py go to line 2338 and replace whatever is there with this r'"title":\s*{\s*"simpleText":\s*"%s"\s*},\s*"contents":\s*\[\s*{\s*(?:"runs":\s*\[\s*{\s*"text"|"simpleText"):\s*"([^"]+)"' % field,
