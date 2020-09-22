@@ -1,0 +1,3 @@
+replace this text with your spotify client id
+replace this line wtih your spotify client secret
+replace this line with the redirect uri from your spotify app
